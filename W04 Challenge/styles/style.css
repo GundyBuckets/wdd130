@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-color: pink;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+h1 {
+    color: white;
+}
+
+h1:hover {
+    color: black;
+}
+
+.first-quote {
+    color: white;
+}
+
+#first-credit {
+    font-weight: bold;
+}
+
+ol {
+    text-align: left;
+    font-weight: bold;
+}
+
+img {
+    width: 40%;
+    height: 40%;
+}
