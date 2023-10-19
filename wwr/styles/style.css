@@ -12,6 +12,10 @@ h2 {
     margin: 0;
 }
 
+.light-h2 {
+    color: white;
+}
+
 nav a {
     color: #01161E;
     text-align: center;
@@ -47,6 +51,7 @@ h4 {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    border: 2px black solid;
 }
 
 .book:hover, .join:hover {
