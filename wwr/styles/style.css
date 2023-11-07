@@ -237,6 +237,25 @@ main section img {
     transform: scale(1.1);
 }
 
+/* Rivers Page */
+
+.rivers-post {
+    background-color: #C6B38E;
+    padding: 0 .5rem;
+    margin: 0.5rem;
+    text-align: left;
+}
+
+.river-post h3 {
+    padding: .5rem;
+}
+
+.rivers-post img {
+    float: right;
+    margin: 0.8rem;
+    width: 30%;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
