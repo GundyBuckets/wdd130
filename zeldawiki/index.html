@@ -4,46 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zelda Wiki | Home</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
+<div class="content">
     <header>
+        <a class="logo-link" href="index.html">
+            <img class="logo" src="images/zelda-wiki-logos.jpeg" alt="Zelda Wiki Logo">
+        </a>
         <nav>
-            <a href="index.html">
-                <img src="images/zelda-wiki-logos.jpeg" alt="Zelda Wiki Logo">
-            </a>
             <a href="index.html">Home</a>
             <a href="timeline.html">The Timeline</a>
             <a href="top-games.html">Top Zelda Games</a>
         </nav>
     </header>
-    <main>
-        <div class="hero-div">
+    <main class="home-main">
+        <div class="hero">
             <img src="images/hyrule-crest.png" alt="Hyrule Crest">
             <h2>Welcome to Zelda Wiki</h2>
         </div>
-        <div class="home-page-box">
+        <div class="home-page-box" id="gateway">
             <h3>Your Gateway to the World of Hyrule</h3>
             <p>Embark on an extraordinary journey through the realms of Hyrule, where legends are born and destinies intertwine. Welcome to Zelda Wiki, your ultimate guide to the captivating universe of The Legend of Zelda. Whether you're a seasoned adventurer or a newcomer to this enchanted land, this sanctuary of knowledge is here to illuminate the mysteries, stories, and characters that define one of gaming's most cherished sagas.</p>
         </div>
-        <img src="images/zelda.png" alt="Zelda from Tears of the Kingdom">
-        <div class="home-page-box">
+        <img id="zelda-img" src="images/zelda.png" alt="Zelda from Tears of the Kingdom">
+        <div class="home-page-box" id="secrets">
             <h3>Uncover the Secrets of Hyrule</h3>
             <p>For those who have yet to experience the magic of Hyrule, fear not! Zelda Wiki is your gateway to a world brimming with rich lore and timeless adventures. Discover the heroic exploits of Link, the wise counsel of Princess Zelda, and the relentless pursuit of power by Ganon(dorf). Traverse ancient dungeons, wield legendary artifacts, and immerse yourself in a narrative that spans generations.</p>
         </div>
-        <div class="home-page-box">
+        <div class="home-page-box" id="tapestry">
             <h3>Navigating the Tapestry of Time</h3>
             <p>Delve into the intricacies of the Legend of Zelda timeline, a chronicle that weaves together the fates of heroes across divergent eras. From the Decline Timeline, where Hyrule faces the aftermath of a hero's fall, to the Child Timeline, shaped by a courageous stand against darkness, and the enigmatic waters of the Adult Timeline, each path offers a unique glimpse into the evolving destiny of a kingdom.</p>
         </div>
     </main>
     <footer>
-        <p>&copy;Hunter Gundersen</p>
+        <p>&copy;Hunter Gundersen - 2023</p>
         <a href="site-plan.html">Site Plan</a>
-        <a href="https://www.nintendo.com/us/">
-            <img src="images/nintendo-logo.png" alt="Nintendo Logo">
-        </a>
-        <a href="https://zelda.nintendo.com/">
-            <img src="images/simple-triforce.png" alt="Triforce">
-        </a>
+        <div class="nintendo-links">
+            <a href="https://www.nintendo.com/us/">
+                <img src="images/nintendo-logo.png" alt="Nintendo Logo">
+            </a>
+            <a href="https://zelda.nintendo.com/">
+                <img src="images/simple-triforce.png" alt="Triforce">
+            </a>
+        </div>
     </footer>
+</div>
 </body>
 </html>
