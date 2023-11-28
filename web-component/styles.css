@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Lily+Script+One);
+
+h2{
+	color: transparent;
+	font: 700 280px 'Lily Script One', cursive;
+	text-align: center;
+	text-shadow: 24px 20px 8px rgba(255, 255, 255, 0.3), 18px 10px 6px rgba(255, 155, 153, 0.39), 8px 6px 6px rgba(0, 0, 0, 0.60), 4px 4px 6px #fff, 0 0 6px #ff9999;
+	margin: 0.125em 0;
+	position: relative;
+}
+
+h2::before, h2::after{
+	content: '';
+	font: inherit;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	pointer-events: none;
+}
+
+h2::before{
+	background: -webkit-repeating-linear-gradient(135deg, #d5013f, #d5013f 20px, #fff 20px, #fff 40px);
+	background: repeating-linear-gradient(-45deg, #d5013f, #d5013f 20px, #fff 20px, #fff 40px);
+	mix-blend-mode: overlay;
+}
+
+h2::after{
+	background: white;
+	content: 'Days until Christmas';
+	color: black;
+	text-shadow: none;
+	mix-blend-mode: lighten;
+	bottom: -20px;
+}
